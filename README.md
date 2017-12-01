@@ -16,7 +16,6 @@ pip3 install opencv-python
 python3 img_to_text.py --in_image [file-name-in.xxx] --out_file [file-name-out.xxx]
 
 default:
-
     * **--in_file** img.jpg
     * **--out_file** img.txt
 
@@ -27,7 +26,6 @@ default:
 python3 img_show.py --in_file [file-name-in.xxx]
 
 default:
-
     * **--in_file** img.txt
 
     >python3 img_show.py --in_file img.txt
@@ -37,7 +35,6 @@ default:
 python3 img_to_text.py --in_image [file-name-in.xxx] --out_file [file-name-out.xxx] --minV [int] --maxV [int]
 
 default:
-
     * **--in_file** img.jpg
     * **--out_file** img.txt
     * **--minV** 100
