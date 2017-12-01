@@ -16,10 +16,11 @@ pip3 install opencv-python
 python3 img_to_text.py --in_image [file-name-in.xxx] --out_file [file-name-out.xxx]
 
 default:
-    * **--in_file** img.jpg
-    * **--out_file** img.txt
 
-    >python3 img_to_text.py --in_image img.jpg --out_file img.txt
+  * **--in_file** img.jpg
+  * **--out_file** img.txt
+
+>python3 img_to_text.py --in_image img.jpg --out_file img.txt
 
 * text to img :
 
