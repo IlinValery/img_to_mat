@@ -34,7 +34,7 @@ default:
 
 ### canny_to_text:
 
-python3 img_to_text.py --in_image [file-name-in.xxx] --out_file [file-name-out.xxx] --minV [int] --maxV [int]
+python3 canny_to_text.py --in_image [file-name-in.xxx] --out_file [file-name-out.xxx] --minV [int] --maxV [int]
 
 default:
     
@@ -43,6 +43,6 @@ default:
   * **--minV** 100
   * **--maxV** 100
 
-  >python3 img_to_text.py --in_image img.jpg --out_file img.txt --minV 100 --maxV 200
+  >python3 canny_to_text.py --in_image img.jpg --out_file img.txt --minV 100 --maxV 200
 
 
